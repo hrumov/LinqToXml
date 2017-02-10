@@ -1,0 +1,9 @@
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\bin\Debug\htLinqToXml.dll
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\bin\Debug\htLinqToXml.pdb
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\bin\Debug\nunit.framework.dll
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\bin\Debug\nunit.framework.xml
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\obj\Debug\LinqToXml.csprojResolveAssemblyReference.cache
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\obj\Debug\htLinqToXml.ResourceFile.resources
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\obj\Debug\LinqToXml.csproj.GenerateResource.Cache
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\obj\Debug\htLinqToXml.dll
+D:\c-sharp-lab\c-sharp-projects\LinqToXml\htLinqToXml\obj\Debug\htLinqToXml.pdb

@@ -61,7 +61,16 @@ namespace htLinqToXml {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to D:\c-sharp-lab\c-sharp-projects\LinqToXml\RD. HW - AT Lab#. 05 - Customers.xml.
+        ///   Looks up a localized string similar to 100000.
+        /// </summary>
+        internal static string OrdersSum {
+            get {
+                return ResourceManager.GetString("OrdersSum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to D:\c-sharp-lab\c-sharp-projects\LinqToXml\Customers.xml.
         /// </summary>
         internal static string XmlFilePath {
             get {
