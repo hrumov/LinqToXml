@@ -51,8 +51,6 @@
       <DependentUpon>ResourceFile.resx</DependentUpon>
     </Compile>
     <Compile Include="TestClass.cs" />
-    <Compile Include="Util.cs" />
-    <Compile Include="XmlRead.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ResourceFile.resx">
