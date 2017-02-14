@@ -87,7 +87,9 @@ namespace htLinqToXml
                 .Where(e => e.Element("orders").Element("order") != null)
                 .Select(e => new Tuple<string, string, double>(e.Element("name").Value, e.Element("orders").Element("order")
                 .Element("orderdate").Value.Substring(0, 7), e.Element("orders").Elements("order").Select(d => Double.Parse(d.Element("total").Value)).Sum()))
-                .OrderBy(e => e.Item2.Substring(0, 4)).ThenBy(e => e.Item2.Substring(5, 2)).ThenByDescending(e => e.Item3).ThenBy(e => e.Item1);
+                .OrderBy(e => e.Item2.Substring(0, 4))
+                .ThenBy(e => e.Item2.Substring(5, 2))
+                .ThenByDescending(e => e.Item3).ThenBy(e => e.Item1);
 
             foreach (Tuple<string, string, double> e in clientList)
             {
@@ -104,7 +106,7 @@ namespace htLinqToXml
             var clientList = from customer in customers
                              where ((customer.Elements("postalcode").Count() == 0) || ((customer.Elements("postalcode").Count() != 0) &&
                                     (Regex.IsMatch(customer.Element("postalcode").Value, "[A-Za-z]")))
-                                    || !Regex.IsMatch(customer.Element("phone").Value, "(\\([^\\)]*\\))"))
+                                    || !Regex.IsMatch(customer.Element("phone").Value, "("))
                              select customer;
 
             foreach (XElement e in clientList)
